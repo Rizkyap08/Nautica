@@ -1,8 +1,8 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "foolvpn.me"; // Ganti dengan domain utama kalian
-const serviceName = "nautica"; // Ganti dengan nama workers kalian
+const rootDomain = "nmira.us.kg"; // Ganti dengan domain utama kalian
+const serviceName = "nua"; // Ganti dengan nama workers kalian
 const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = ""; // Ganti dengan email yang kalian gunakan
 const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
@@ -15,8 +15,8 @@ let cachedProxyList = [];
 const APP_DOMAIN = `${serviceName}.${rootDomain}`;
 const PORTS = [443, 80];
 const PROTOCOLS = ["trojan", "vless", "ss"];
-const KV_PROXY_URL = "https://raw.githubusercontent.com/dickymuliafiqri/Nautica/refs/heads/main/kvProxyList.json";
-const PROXY_BANK_URL = "https://raw.githubusercontent.com/dickymuliafiqri/Nautica/refs/heads/main/proxyList.txt";
+const KV_PROXY_URL = "https://raw.githubusercontent.com/Rizkyap08/Nautica/refs/heads/main/kvProxyList.json";
+const PROXY_BANK_URL = "https://raw.githubusercontent.com/Rizkyap08/Nautica/refs/heads/main/proxyList.txt";
 const DOH_SERVER = "https://dns.quad9.net/dns-query";
 const PROXY_HEALTH_CHECK_API = "https://id1.foolvpn.me/api/v1/check";
 const CONVERTER_URL =
